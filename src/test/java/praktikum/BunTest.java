@@ -10,6 +10,7 @@ import static praktikum.constants.Delta.DELTA;
 
 @RunWith(Parameterized.class)
 public class BunTest {
+
     private final String name;
     private final float price;
     private Bun bun;
