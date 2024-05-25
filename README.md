@@ -1,4 +1,4 @@
-# Diplom1
+# Diplom_1
 
 Задача: покрыть тестами классы Bun, Burger, Ingredient, IngredientType. Использованы моки, стабы и параметризация.
 

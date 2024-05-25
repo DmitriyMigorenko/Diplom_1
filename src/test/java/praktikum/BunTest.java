@@ -35,11 +35,13 @@ public class BunTest {
 
     @Test
     public void getBunName() {
-        assertEquals(name, bun.getName());
+        String actualName = bun.getName();
+        assertEquals(name, actualName);
     }
 
     @Test
     public void getBunPrice() {
-        assertEquals(price, bun.getPrice(), DELTA);
+        float actualPrice = bun.getPrice();
+        assertEquals(price, actualPrice, DELTA);
     }
 }
